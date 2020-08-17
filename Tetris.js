@@ -123,7 +123,7 @@
                     document.getElementById("box").style.border = "1px solid white";
                 }
             }
-            if (e.keyCode === 38 || e.keyCode === 88) {// up arrow
+            if (e.keyCode === 38 || e.keyCode === 104) {// up arrow
                 if (downcontrol == true && spacecontrol == 0 && rightcontrol == 0 && leftcontrol == 0 && pausecontrol == 0) {
                     finish = true;
                     rotate = true;
